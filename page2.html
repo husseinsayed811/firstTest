@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Regestration</title>
+    <meta name="auther" content="hussein sayed" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/page2css.css" />
+    <!-- welcom message after full the form -->
+    <script>
+        function myalert() {
+            alert("Welcome to Haya" + " Let's get to know information about blood types");
+        }
+    </script>
+</head>
+
+<body>
+    <div class="formcon">
+        <form action="page3.html">
+            <div class="welcome">Welcome..!</div>
+            <div class="input-container ic1">
+                Your Name:<input class="input" type="text" id="points" name="name" required />
+            </div>
+            <div class="input-container ic1">
+                Your Email:<input class="input" type="email" id="points" name="email" required />
+            </div>
+            <div class="input-container ic2">
+                Phon No. :<input class="input" type="tel" pattern="01[0125][0-9]{8}" required />
+            </div>
+            <div class="input-container ic2">
+                Age :<input class="input" type="number" id="points" min="18" max="60" name="age" required />
+            </div>
+            <div class="input-container ic2">
+                <label for="cars">Blood Type:</label>
+                <select class="blood" name="cars" id="cars">
+                    <option>AB+</option>
+                    <option>AB-</option>
+                    <option>A+</option>
+                    <option>A-</option>
+                    <option>O+</option>
+                    <option>O-</option>
+                    <option>B+</option>
+                    <option>B-</option>
+                </select>
+            </div>
+            <div class="input-container ic2">
+                Gender : <br />
+                <input type="radio" name="gender type" checked />Male
+                <input type="radio" name="gender type" />Fmale<br />
+            </div>
+
+
+            <button type='submit' class="submit" onclick="myalert()">submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

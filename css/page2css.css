@@ -1,0 +1,89 @@
+body {
+  align-items: center;
+  background-color: rgb(94, 102, 114);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.formcon {
+  background-color: #131422;
+  border-radius: 25px;
+  box-sizing: border-box;
+  padding: 20px;
+  width: 350px;
+  color: #eee;
+}
+
+.welcome {
+  color: #eee;
+  font-family: sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.input-container {
+  height: 30px;
+  position: relative;
+  width: 100%;
+}
+
+
+/* eara btween evry fild */
+.ic1 {
+  margin-top: 40px;
+}
+
+.ic2 {
+  margin-top: 30px;
+}
+
+
+.input {
+  background-color: #303245;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: rgb(179, 178, 182);
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+}
+
+
+.blood {
+  background-color: #303245;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: rgb(179, 178, 182);
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+}
+
+
+.submit {
+  background-color: #08d;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 38px;
+  outline: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.submit:active {
+  background-color: rgb(35, 130, 207);
+}

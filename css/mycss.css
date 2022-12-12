@@ -1,0 +1,134 @@
+html {
+    /* background: url(../photo/photo00.webp) no-repeat center fixed;
+    background-size: cover; */
+    width: 100%;
+    height: auto;
+    background-color: antiquewhite;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    padding: 10px 0px;
+    margin: 0px;
+    background: none;
+    text-align: right;
+    box-shadow: 0px 1px 10px black;
+    position: fixed;
+    top: 0px;
+    border-radius: 19px;
+}
+
+.navbar li {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 5px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    transition: all 0.7s ease-in-out;
+}
+
+.logo {
+    width: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+/* name of the bage in the bar  */
+.navbar li:first-child {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+
+}
+
+.menu:hover {
+    background: gray;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    animation-duration: 3s;
+}
+
+.navlink {
+    text-decoration: none;
+    color: black;
+
+}
+
+.contaner {
+    width: 100%;
+    height: 700px;
+    margin-top: 300px;
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(58, 55, 55);
+    text-align: center;
+}
+
+.imghome {
+    width: 319px;
+    height: 500px;
+    float: left;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+.midcon {
+    float: left;
+}
+
+.middown {
+    color: rgb(56, 56, 56);
+    margin: 5px;
+    padding: 8px;
+    text-align: center;
+}
+
+p {
+    width: 280px;
+    text-align: center;
+}
+
+#about {
+    color: #000;
+    width: 100%;
+    height: auto;
+    background-color: rgb(190, 125, 125);
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+h3 {
+    background-color: rgb(104, 98, 98);
+    font-size: 40px;
+    color: black;
+}
+
+.paboutus {
+    margin: 15px;
+    width: 100%;
+}
